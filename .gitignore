@@ -1,5 +1,9 @@
 # Environment variables
 .env
+CLAUDE.md
+CLAUDE_original.md
+copy_data_to_freepdb1.sql
+copy_to_freepdb1.sql
 
 # Data files
 data/*.csv
