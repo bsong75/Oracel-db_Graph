@@ -171,22 +171,6 @@ The application generates:
 - Check PGX server is running on port 7007
 - Ensure graph user has proper permissions
 
-### Python Application Errors
-- Check CSV file exists in `data/` directory
-- Verify database is healthy: `docker-compose ps`
-- Review logs: `docker-compose logs python-app`
-
-## Converting from Neo4j
-
-Original Neo4j code has been backed up as:
-- `pest_analysis_classes_neo4j.py`
-- `algo3_graphsage_neo4j.py`
-
-Key differences:
-- Neo4j Cypher → Oracle PGQL queries
-- Neo4j GDS → Oracle PGX APIs
-- GraphSAGE → PGX GraphWise/DeepWalk
-- Bolt protocol → Oracle TNS/oracledb
 
 ## References
 
