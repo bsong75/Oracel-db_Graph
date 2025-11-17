@@ -24,11 +24,6 @@ This application consists of two Docker containers:
 
 ### 1. Configure Environment
 
-Copy the example environment file and customize if needed:
-```bash
-cp .env.example .env
-```
-
 Edit `.env` to change passwords or other settings (optional - defaults work out of the box).
 
 ### 2. Prepare Data
