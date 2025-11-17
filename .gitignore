@@ -1,0 +1,41 @@
+# Environment variables
+.env
+
+# Data files
+data/*.csv
+data/*.json
+data/*.txt
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Output files
+*.csv
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Oracle specific
+*.dmp
+*.trc
