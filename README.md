@@ -58,13 +58,22 @@ docker-compose down
 docker-compose down -v
 ```
 
-### 3. Access the Database
+### 4. Access Graph Studio UI
+
+Oracle Graph Studio is available at:
+- **URL**: https://localhost:7007/ui/
+- **Username**: graphuser
+- **Password**: Welcome1
+
+![Oracle Graph Studio UI](oracle_graph_studio_ui.png)
+
+### 5. Access the Database
 
 Oracle Database will be available at:
 - **Host**: localhost
 - **Port**: 1521
-- **Service Name**: GRAPHDB
-- **Graph User**: graphuser / GraphPassword123
+- **Service Name**: FREE (data) / FREEPDB1 (PGX)
+- **Graph User**: graphuser / Welcome1
 - **Admin User**: sys / OraclePassword123
 
 ## Project Structure
